@@ -313,23 +313,6 @@ footer {
    
 }
 
-.footer-wave {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-}
-
-.footer-wave svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 150px;
-}
-
 .contact-section {
     display: flex;
     justify-content: space-around;
