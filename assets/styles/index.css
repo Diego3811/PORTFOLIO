@@ -249,6 +249,60 @@ p {
     color: #555;
 }
 
+/*blog cards*/
+.blog-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: white;
+}
+
+.blog-section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.blog-section h3 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-card h4 {
+    font-size: 1.5rem;
+    margin: 20px 0 10px;
+    color: var(--primary-color);
+}
+
+.blog-card p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
 /*footer*/
 
 footer {
@@ -257,6 +311,23 @@ footer {
     padding: 50px 0;
     margin-top: 50px;
    
+}
+
+.footer-wave {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.footer-wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
 }
 
 .contact-section {
